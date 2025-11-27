@@ -8,3 +8,15 @@
     @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-50;
   }
 }
+
+@layer components {
+  .expense-form {
+    @apply flex flex-col space-y-4;
+  }
+  .expense-list {
+    @apply mt-4;
+  }
+  .expense-item {
+    @apply p-4 border rounded-lg shadow;
+  }
+}
